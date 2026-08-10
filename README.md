@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 - **Dermatologist shortage** in India: ~1 per 100,000 patients
 - **Delayed diagnosis** → worse outcomes for skin cancer, infections, chronic conditions
@@ -14,7 +14,7 @@
 
 ---
 
-## 🧠 Approach: Concept Bottleneck Model (CBM)
+##  Approach: Concept Bottleneck Model (CBM)
 
 ```
 Image → EfficientNet-B0 → 96 Clinical Concepts → 6 Disease Classes
@@ -27,14 +27,14 @@ Image → EfficientNet-B0 → 96 Clinical Concepts → 6 Disease Classes
 ```
 
 **Why CBM?**
-- ✅ **Interpretable** — Doctors see *which clinical concepts* drove the prediction
-- ✅ **Trustworthy** — Can verify/correct concept predictions
-- ✅ **Regulatory-friendly** — Explainability required for medical AI
-- ✅ **Grad-CAM** — Visual heatmap shows *where* model looks
+-  **Interpretable** — Doctors see *which clinical concepts* drove the prediction
+-  **Trustworthy** — Can verify/correct concept predictions
+-  **Regulatory-friendly** — Explainability required for medical AI
+-  **Grad-CAM** — Visual heatmap shows *where* model looks
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
@@ -59,7 +59,7 @@ Image → EfficientNet-B0 → 96 Clinical Concepts → 6 Disease Classes
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -95,7 +95,7 @@ npm run dev
 
 ---
 
-## 🎬 Demo Walkthrough
+##  Demo Walkthrough
 
 ### 1. Patient Flow
 ```
@@ -119,7 +119,7 @@ Login (Admin) → Dashboard → Statistics Charts → User Management
 
 ---
 
-## 📊 Model Performance (Prototype)
+##  Model Performance (Prototype)
 
 | Metric | Value |
 |--------|-------|
@@ -132,7 +132,7 @@ Login (Admin) → Dashboard → Statistics Charts → User Management
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -147,7 +147,7 @@ Login (Admin) → Dashboard → Statistics Charts → User Management
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 AI-Powered-Skin-diseases-triage-and-reffral-system/
@@ -186,7 +186,7 @@ AI-Powered-Skin-diseases-triage-and-reffral-system/
 
 ---
 
-## 🔮 Roadmap (Post-Prototype)
+##  Roadmap (Post-Prototype)
 
 - [ ] **Production Auth** — JWT, refresh tokens, role-based access
 - [ ] **PostgreSQL** — Replace SQLite for concurrency
@@ -199,20 +199,20 @@ AI-Powered-Skin-diseases-triage-and-reffral-system/
 
 ---
 
-## 👨‍💻 Team
+## Team
 
 **Atharva Ved** — Full Stack + ML Engineering  
 *Solo prototype for National Hackathon*
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — See LICENSE file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Concept Bottleneck Models** — Koh et al., ICML 2020
 - **EfficientNet** — Tan & Le, ICML 2019
