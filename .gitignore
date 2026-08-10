@@ -1,0 +1,30 @@
+# ---- Python / Backend ----
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Database (contains local test data, shouldn't be in version control)
+**/data/*.db
+
+# Large model checkpoint -- tracked via Git LFS (see .gitattributes), not ignored.
+
+# ---- Node / Frontend ----
+node_modules/
+dist/
+build/
+.vite/
+
+# ---- Environment / secrets ----
+.env
+.env.local
+*.key
+
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
